@@ -20,7 +20,7 @@ export default function App() {
       }}
     >
       {data.courses.map((start) => (
-        <Marker key={start.gps}
+        <Marker key={start.gps[0]}
           longitude={start.gps[0, 1, 2, 3, 4].longitude}
           latitude={start.gps[0, 1, 2, 3, 4].latitude}>
           <div><strong>ponto</strong></div>
