@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker } from "react-map-gl";
+import'./Components/Param1'
+
 var data = require('./frontend_data_gps.json');
+
 
 
 export default function App() {
@@ -19,10 +22,10 @@ export default function App() {
         setViewport(viewport);
       }}
     >
-      {data.courses.map((start) => (
-        <Marker key={start.gps[0]}
-          longitude={start.gps[0].longitude}
-          latitude={start.gps[0].latitude}>
+      {data.courses.map((Param1) => (
+        <Marker key={Param1.gps}
+          longitude={Param1.gps[0, 1, 2, 3, 4].longitude}
+          latitude={Param1.gps[0, 1, 2, 3, 4].latitude}>
           <div><strong>ponto</strong></div>
         </Marker>
         

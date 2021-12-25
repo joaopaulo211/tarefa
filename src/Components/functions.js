@@ -1,4 +1,4 @@
-var gpsData = require('./frontend_data_gps.json');
+var gpsData = require('../frontend_data_gps.json');
 
 let latitude = [];
 let longitude = [];
